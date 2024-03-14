@@ -1,0 +1,79 @@
+body {
+  background-color: #001e4d;
+}
+
+.app {
+  width: 90%;
+  max-width: 600px;
+  padding: 30px;
+  margin: 100px auto 0;
+}
+
+.app h1 {
+  font-size: 25px;
+  color: #001e4d;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+.app-title {
+  border-bottom: 1px solid #333;
+}
+
+#timer {
+  background: #001e4d;
+  color: #fff;
+  width: 170px;
+  height: 50px;
+  font-weight: 500;
+}
+
+.quiz {
+  padding: 20px 0;
+}
+
+.quiz h2 {
+  font-size: 18px;
+  color: #001e4d;
+  font-weight: 600;
+}
+
+.answer-btn {
+  background: #fff;
+  color: #222;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #222;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.navigation-buttons button {
+  width: 100px;
+}
+
+.nav-btn {
+  background: #001e4d;
+  color: #fff;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  margin-right: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#submit-btn {
+  margin-left: 20%;
+}
+
+.selected {
+  background-color: #007bff;
+  color: white;
+}
